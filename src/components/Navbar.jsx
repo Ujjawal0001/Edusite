@@ -41,6 +41,7 @@ const Navbar = () => {
           <Link to="/contact" className="block hover:underline" onClick={() => setIsOpen(false)}>Contact</Link>
           <Link to="/login" className="block hover:underline" onClick={() => setIsOpen(false)}>Login</Link>
           <Link to="/signup" className="block hover:underline" onClick={() => setIsOpen(false)}>Signup</Link>
+          <Link to="/dashboard" className="block hover:underline" onClick={() => setIsOpen(false)}>DashBoard</Link>
         </div>
       )}
     </nav>
